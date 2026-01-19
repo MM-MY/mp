@@ -3,7 +3,7 @@ package com.wym.mp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.wym.mp")
 public class MpApplication {
 
     public static void main(String[] args) {

@@ -14,7 +14,7 @@ public class UserMapperTest {
     @Test
     public void testInsert(){
         User user = new User();
-        user.setName("wym111");
+
         user.setPassword("123456");
         user.setRole(1);
 
