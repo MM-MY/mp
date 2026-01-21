@@ -15,6 +15,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         if (user == null) {
             throw new RuntimeException("用户不存在");
         }
+        System.out.println("money" + money);
         //3.校验余额
 
         //4.更新用户余额
